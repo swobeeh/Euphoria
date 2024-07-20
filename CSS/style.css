@@ -1,0 +1,1480 @@
+*{margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.wrapper{
+  width: 1280px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+body{
+
+
+
+ @font-face {
+  font-family: 'poppinsbold';
+  src: url('../fonts/css/poppins-bold-webfont.woff2') format('woff2'),
+       url('../fonts/css/poppins-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'poppinsextrabold';
+  src: url('../fonts/css/poppins-extrabold-webfont.woff2') format('woff2'),
+       url('../fonts/css/poppins-extrabold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'poppinsextralight';
+  src: url('../fonts/css/poppins-extralight-webfont.woff2') format('woff2'),
+       url('../fonts/css/poppins-extralight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'poppinslight';
+  src: url('../fonts/css/poppins-light-webfont.woff2') format('woff2'),
+       url('../fonts/css/poppins-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'poppinsregular';
+  src: url('../fonts/css/poppins-regular-webfont.woff2') format('woff2'),
+       url('../fonts/css/poppins-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'poppinssemibold';
+  src: url('../fonts/css/poppins-semibold-webfont.woff2') format('woff2'),
+       url('../fonts/css/poppins-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+}
+
+
+
+
+
+
+header { 
+  width:100%;
+
+}
+
+header .container { 
+  display: flex;
+  justify-content: space-between;
+  padding-top:10px;
+
+}
+
+
+header .container .left h1 { 
+  display: flex;
+  justify-content: space-between;
+  font-family:'poppinsregular';
+
+}
+header .container .left h1:hover{
+  transform: scale(1.5);
+  
+}
+
+header .container .left h1 a {  
+  font-family: 'poppinsregular';
+
+}
+
+header .container .left h1 a img { 
+  margin-left:150px;
+  margin-right: 100px;
+  
+
+}
+
+header .container .middle { 
+padding-top: 10px;
+}
+
+header .container .middle ul { 
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  
+
+}
+header .container .middle ul li.menu{
+  display: none;
+}
+header .container .middle ul li { 
+  font-family: 'poppinsregular';
+ margin-right:100px;
+ 
+font-size: 20px;
+ color: rgb(154, 161, 168);
+}
+header .container .middle ul li:hover{
+  color: rgb(20, 20, 20);
+  
+}
+
+header .container .right { 
+  height:70px;
+  gap: 0px;
+  opacity: 0px;
+  
+
+}
+
+header .container .right ul { 
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-top: 10px;
+
+  
+
+}
+header .container .right ul li{
+  margin-right: 50px;
+}
+
+
+
+header .container .right ul li button { 
+  width: 250px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  margin-right:50px;
+  color: rgb(117, 110, 110);
+  text-align:left;
+  font-size: 16px;
+  font-family:'poppinsregular';
+  
+  
+  
+
+}
+header .container .right ul li button:hover{
+border: 1px solid rgb(235, 228, 228);
+}
+
+
+header .container .right ul li button img{
+  align-items: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+header .container .right ul li  span{
+  display: flex;
+  justify-content: space-between;
+  
+  
+  
+ 
+  
+  
+ 
+}
+header .container .right  span img{
+  background-color: rgb(230, 227, 227);
+  padding: 8px;
+  border-radius: 4px;
+  
+  
+  
+  
+  
+}
+
+#spotlight { 
+background-image: url(../IMAGES/bg-1.jpg);
+background-repeat: no-repeat;
+height: 110vh;
+}
+
+
+
+#spotlight .wrapper .container { 
+ display: flex;
+ justify-content: space-between;
+}
+
+#spotlight .wrapper .container .left { 
+  margin-top: 500px;
+ 
+
+}
+#spotlight .wrapper .container .middle { 
+ 
+ margin-top:300px;
+ 
+ 
+ 
+}
+
+#spotlight .wrapper .container .middle h6 { 
+ font-size: 25px;
+ color: white;
+ font-family:'poppinssemibold';
+ }
+
+#spotlight .wrapper .container .middle h2 { 
+
+font-size:70px;
+color: white;
+line-height: 7rem;
+width: 70%; 
+font-family:'poppinsbold';
+}
+
+#spotlight .wrapper .container .middle .button { 
+  background-color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000;
+  padding:15px 50px;
+  margin-top:100px;
+  line-height: 6rem;
+  font-family: 'poppinsregular';
+}
+
+#spotlight .wrapper .container .right { 
+  margin-top:500px;
+  margin-left: 200px;
+  margin-right: -50px;
+}
+
+#main  { 
+  display: flex;
+  justify-content: space-between;
+}
+#main .wrapper .container { 
+  display: flex;
+  justify-content: space-between;
+}
+
+#main .wrapper .container .left { 
+  display:block;
+  justify-content: space-between;
+  margin-top:100px;
+  background-image: url(../IMAGES/bg-2.jpg);
+  background-repeat: no-repeat;
+  background-size:850px;
+  width: 250%;
+  height: 350px;
+  margin-right: 8%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px rgb(41, 40, 40);
+}
+
+#main .wrapper .container .left h6 { 
+  color: white;
+  
+  font-size: 12px;
+  margin-left:50px;
+  margin-top: 50px;
+  font-family:'poppinsregular' ;
+  
+  
+}
+
+#main .wrapper .container .left h4 { 
+  color: white;
+  
+  
+  font-size: 25px;
+  margin-left: 50px;
+  margin-top: 50px;
+  font-family: 'poppinssemibold';
+  
+
+}
+
+#main .wrapper .container .left p { 
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-top: 50px;
+  font-family:'poppinsregular';
+}
+#main .wrapper .container .left h6 a{
+  color: white;
+}
+
+#main .wrapper .container .right { 
+display: block;
+margin-top: 100px;
+background-image: url(../IMAGES/bg-3.jpg);
+background-repeat: no-repeat;
+background-size:780px;
+width: 250%;
+height: 350px;
+
+border-radius: 20px;
+  box-shadow:5px 5px 5px 5px rgb(41, 40, 40);
+}
+
+#main .wrapper .container .right h6 { 
+  color: white;
+  line-height: 2rem;
+  text-align: left;
+  font-size: 12px;
+  margin-left: 50px;
+  margin-top: 50px;
+  font-family:'poppinsregular' ;
+
+}
+
+#main .wrapper .container .right h4 { 
+color: white;
+text-align: left;
+font-size: 25px;
+margin-left: 50px;
+font-family: 'poppinssemibold';
+}
+
+#main .wrapper .container .right p { 
+  color: white;
+  line-height: 2rem;
+  text-align: left;
+  margin-left: 50px;
+  font-size: 20px;
+  margin-top: 50px;
+  font-family:'poppinsregular' ;
+  
+
+}
+#main .wrapper .container .right h6 a{
+  color: white;
+  font-family: 'poppinssemibold';
+  
+}
+#middle .wrapper .container { 
+width: 100%;
+
+}
+
+#middle .wrapper .container h4 { 
+  margin-top: 100px;
+ 
+  margin-bottom: 50px;
+  font-size: 25px;
+  font-family: 'poppinssemibold';
+
+}
+
+#middle .wrapper .gallery ul { 
+  display: flex;
+  justify-content:space-between ;
+}
+
+#middle .wrapper .gallery ul li { 
+  margin-top: 10px;
+  margin-right:80px;
+  list-style: none;
+  text-align: center;
+  font-family: 'poppinslight';
+  
+}
+
+#middle .wrapper .gallery ul li a{
+text-decoration: none;
+color: #000;
+margin-top:20px;
+}
+
+      
+      
+
+#middle .wrapper.gallery ul li  img { 
+  margin-left:20%;
+
+
+}
+#brand { 
+  width: 100%;
+  display: flex;
+  height: 800px;
+}
+
+#brand .wrapper .container { 
+  
+  display: flex;
+
+  
+
+}
+#brand .wrapper .container div.left{
+  background-image: url(../IMAGES/bg-4.jpg);
+  background-size:100%;
+  height: 600px;
+  width: 750px;
+  margin-top:100px;
+  
+
+  
+}
+  
+
+#brand .wrapper .container  div.right{
+  background-image:url(../IMAGES/bg-5.jpg);
+  background-size: 100%;
+  height: 600px;
+  width: 750px;
+  margin-top: 100px;
+  margin-bottom: 300px;
+  
+  
+
+}
+
+
+#brand .wrapper .container h4 { 
+  font-size: 30px;
+  color: white;
+  text-align: left;
+  margin-top:200px;
+  margin-bottom:20px;
+  margin-left: 50px;
+  line-height: 2rem;
+  font-family: 'poppinsbold';
+
+}
+
+
+#brand .wrapper .container p { 
+color: rgb(226, 225, 225);
+text-align: left;
+margin-left: 50px;
+line-height: 1.5rem;
+font-size: 18px;
+font-family: 'poppinslight';
+
+}
+
+#brand .wrapper .container .button { 
+background-color:white;
+color: #000;
+text-decoration: none;
+padding: 6px 40px;
+line-height: 8rem;
+margin-left: 50px;
+font-family: 'poppinsregular';
+}
+
+
+
+#category_for_men .container h4 { 
+  font-size: 30px;
+  margin-bottom:50px;
+  font-family: 'poppinssemibold';
+}
+
+#category_for_men .container ul { 
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom:20px;
+  list-style: none;
+  flex-direction: row;
+
+
+}
+
+#category_for_men .container ul li { 
+  width: 300px;
+  margin-bottom: 3%;
+
+}
+#category_for_men .container ul li:nth-child(7n) img.image{
+  width:250px;
+  height: 390px;
+}
+#category_for_men .container ul li a {
+  color: gray;
+  font-size: 12px;
+  margin-right:10px;
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  font-family: 'poppinslight';
+ 
+  
+}
+
+#category_for_men .container ul li a img.right{ 
+  margin-left: 200px;
+}
+
+#category_for_men .container ul li a span { 
+  font-size: 18px;
+  color: black;
+  width: 100%;
+  text-decoration:none;
+  margin-top: 20px;
+}
+ 
+  #Categories_for_women .container h4 { 
+    font-size: 30px;
+    margin-bottom:50px;
+    margin-left: 10px;
+    font-family: 'poppinssemibold';
+  }
+  
+  #Categories_for_women .container ul { 
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom:20px;
+    list-style: none;
+    flex-direction: row;
+  }
+  
+  #Categories_for_women .container ul li { 
+    width: 300px;
+    
+  }
+  
+  #Categories_for_women .container ul li a { 
+    color: gray;
+    font-size: 12px;
+    margin-right:10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    
+  }
+  
+    
+  #Categories_for_women .container ul li a span { 
+    font-size: 18px;
+    color: black;
+    width: 100%;
+    text-decoration:none;
+    margin-right:10px;
+    font-family: 'poppinslight';
+    margin-top: 20px;
+  }
+  
+  
+  #Categories_for_women .container ul li a .arrow-right { 
+   margin-left: 200px;
+  }
+ 
+
+ 
+  
+  
+  #top_brands .wrapper .container { 
+  background-color: #2d2d2d;
+  height: 350px;
+  width: 100%;
+  padding:5px;
+  border-radius: 8px;
+  }
+  
+  #top_brands .wrapper .container h2 { 
+  text-align: center;
+   font-size: 40px;
+   color: white;
+   margin-top: 40px;
+   font-family: 'poppinsbold';
+  
+  }
+  
+  #top_brands .wrapper .container p { 
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'poppinsregular';
+
+  
+  }
+  #top_brands .wrapper .container .logo{
+    padding: 0% 4%;
+    display: flex;
+    flex-wrap: wrap;
+  } 
+  #top_brands .wrapper .container .logo span { 
+    margin-left:30px;
+}
+  #top_brands .wrapper .container .logo span img{
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top:70px;
+  }
+  #top_brands .wrapper .container  a{
+    color:yellow;
+    text-decoration: none;
+    
+  }
+ 
+  #limelight .wrapper .container { 
+  display:flex;
+  
+  }
+ 
+  
+  #limelight .wrapper  h4 { 
+     font-size: 30px;
+     margin-top: 50px;
+     margin-left: 20px;
+     font-family: 'poppinssemibold';
+  }
+  
+  
+  
+  #limelight .wrapper .container .box span img { 
+   margin-top: 30px;
+   margin-right: 50px;
+  
+  }
+  #limelight .wrapper .container .box span img.one{
+    position: absolute;
+    margin-left: 220px;
+    padding-top: 100px;
+    margin-top: 50px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 50%;
+     
+  }
+  #limelight .wrapper .container .box span img.one:hover{
+    transform: scale(.5);
+    background: red;
+  }
+  
+  #limelight .wrapper .container .box p { 
+  
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'poppinsregular';
+  }
+  
+  #limelight .wrapper .container .box .button { 
+      margin-left:15px;
+      background-color: #6f6f66;
+      border-radius: 4px;
+      padding:  6px;
+      margin-top: 20px;
+      color: white;
+  }
+
+  #limelight .wrapper .container .box:nth-child(3n) .button{
+    margin-left: 100px;
+  }
+
+  #limelight .wrapper .container .box small a{
+    margin-left:20px;
+    text-decoration: none;
+    margin-top: 5px;
+    color: #6f6f66;
+    
+
+  }
+ 
+  
+  #feed_back .wrapper h2 { 
+   margin-top: 100px;
+   margin-bottom: 50px;
+   font-size: 30px;
+   font-family: 'poppinssemibold';
+  }
+  
+  #feed_back .wrapper .container { 
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  #feed_back .wrapper .container .box { 
+   width: 400px;
+   height: 300px;
+   border: 2px solid #ddddd6;
+   border-radius: 8px;
+  }
+  
+  #feed_back .wrapper .container .box span { 
+  
+  margin-top: 20px;
+  }
+  
+  
+  
+  #feed_back .wrapper .container .box span img { 
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  
+  }
+  #feed_back .wrapper .container .box a{
+    margin-left: 200px;
+    margin-bottom: 250px;
+  }
+  #feed_back .wrapper .container .box a img{
+       margin-bottom: 60px;
+  
+  }
+  
+  #feed_back .wrapper .container .box h4 { 
+  margin-left: 20px;
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-family: 'poppinssemibold';
+  }
+  
+  #feed_back .wrapper .container .box p { 
+   margin-left: 20px;
+   line-height: 1.5rem;
+  }
+  #footer { 
+    background-color: #2d2d2d;
+  }
+  
+ 
+  
+  #footer .wrapper .container { 
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #6f6f66;
+    margin-top: 100px;
+  }
+  
+  #footer .wrapper .container .left { 
+     margin-left: 50px;
+     
+  }
+  
+  #footer .wrapper .container .left h2 { 
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    font-size: 30px;
+    font-family: 'poppinssemibold';
+  }
+  
+  #footer .wrapper .container .left a { 
+    display: block;
+        text-decoration: none;
+        color: white;
+        margin-top: 30px;
+        font-size: 20px;
+        font-family: 'poppinslight';
+        
+  }
+  #footer .wrapper .container .left ul{
+    display: flex;
+    justify-content: space-between;
+     list-style: none;
+     margin-top: 50px;
+     
+  }
+  #footer .wrapper .container .left ul li{
+  
+     margin-right: 2px;
+  }
+  
+  #footer .wrapper .container .left ul li a img{
+     background-color: white;
+     padding: 12px;
+     border-radius: 10px;
+     margin-bottom: 20px;
+  }
+  #footer .wrapper .container .left ul li a img.one{
+    height: 15px;
+    width: 15px;
+  }
+  #footer .wrapper .container .left ul li a img.four{
+    height:16px;
+  }
+  #footer .wrapper .container .left ul li a img.one:hover{
+    background-color:#4267B2;
+  }
+  #footer .wrapper .container .left ul li a img.two:hover{
+     background-color:purple;
+  
+  }
+  #footer .wrapper .container .left ul li a img.three:hover{
+  background-color: #1DA1F2;
+  }
+  #footer .wrapper .container .left ul li a img.four:hover{
+    background-color: #0077B5;
+  }
+  #footer .wrapper .container .left_one h2 { 
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    font-size: 30px;
+    font-family: 'poppinssemibold';
+        
+  }
+  
+  #footer .wrapper .container .left_one a { 
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family:'poppinslight';
+        
+  }
+  #footer.wrapper.container span.left ul{
+    display: flex;
+  list-style: none;
+  margin-bottom: 100px;
+  }
+  
+  #footer .wrapper .container .middle { 
+    margin-left: 20px;
+  }
+  
+  #footer .wrapper .container .middle h2 { 
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    font-size: 30px;
+    font-family:'poppinssemibold';
+        
+  }
+  
+  #footer .wrapper .container .middle a { 
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family:'poppinslight';
+  }
+  
+  #footer .wrapper .container .right { 
+    margin-bottom: 30px;
+  }
+  
+  #footer .wrapper .container .right h2 { 
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    font-size: 30px;
+    font-family: 'poppinslight';
+  }
+  
+  #footer .wrapper .container .right a.link{ 
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size:18px ;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-family: 'poppinslight';
+  }
+    #footer .wrapper .container  div.right span.right{
+     align-items: center;
+  }
+  #footer .wrapper .container div.right span.right ul{
+    display: flex;
+  }
+   #footer .wrapper .container div.right span.right ul li{ 
+    display: flex;
+    margin-right: 10px;
+    background-color: #090c083b;
+    padding: 8px;
+  
+  }
+  #footer .wrapper .container div.right span.right ul .one a{
+    text-decoration: none;
+  }
+  #footer .wrapper .container div.right span.right ul .one a h4 { 
+    
+    font-size:18px;
+    width:200%;
+    
+  }
+  
+  #footer .wrapper .container div.right span.right ul li .two { 
+  background-color: #49717e;
+  display: flex;
+  
+  }
+  
+  
+  #footer .wrapper .container div.right span.right ul li.two img { 
+          padding: 4px;
+          
+  }
+  #footer .wrapper .container div.right span.right ul li.two a{
+    text-decoration: none;
+  }
+ #footer .wrapper .container span.right ul li img{
+      margin-right: 10px;
+      
+  }
+  #footer .wrapper .container span.right h2{
+    margin-top: 100px;
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    font-family: 'poppinslight';
+  }
+  
+  
+  #footer .wrapper .container span.right ul li small{
+     color: white;
+
+  }
+  #footer .wrapper .container span.right ul li h4{
+   
+   color: white;
+  }
+  
+  #popularCategories { 
+   background-color: #2d2d2d;
+  
+  }
+  #popularCategories .wrapper .container { 
+    display: flex;
+    justify-content: space-between;
+    
+    border-bottom:1px solid #6f6f66;
+    margin-bottom: 20px;
+  }
+  #popularCategories .wrapper .container .left h3 { 
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  color: white;
+  font-size: 25px;
+  margin-left: 50px;
+  font-family: 'poppinslight';
+        
+  }
+  #popularCategories .wrapper .container .right img { 
+          margin-top: 20px;
+          margin-right: 32px;
+  }
+  .one { 
+    display: flex;
+    justify-content: center;
+  }
+  
+  .one small { 
+  color: white;
+  padding-bottom: 50px;
+  font-family: 'poppinlight';
+  }
+
+
+
+  @media all and (max-width:1770px){
+    #spotlight {
+      background-size: 100%;
+    }
+  }
+  @media all and (max-width:1769px){
+    header .container{
+      justify-content: left;
+    }
+    header .container .left h1 a img{
+      margin-left: 8%;
+      margin-right: 0;
+    }
+    header .container .middle ul li:first-child{
+      margin-left: 8%;
+    }
+  }
+
+  @media all and (max-width:1600px){
+    #spotlight {
+      background-size: 100%;
+    }
+  }
+  @media all and (max-width:1543px){
+    #footer .wrapper .container{
+      display: flex;
+      flex-wrap: wrap;
+      width: 49%;
+    }
+  }
+  @media all and (max-width:1490px){
+    header .container .middle ul li{
+      margin-right: 50px;
+    }
+    header .container .middle ul li:last-child{
+      margin-right: 100px;
+    }
+  }
+  @media all and (max-width:1430px){
+    #spotlight .wrapper .container .right img{
+      margin-left: -250px;
+    }
+  }
+  @media all and (max-width:1395px){
+    #middle .wrapper .gallery ul{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: left;
+    }
+    #middle .wrapper .gallery ul li{
+      margin-left: 8%;
+      margin-bottom: 3%;
+    }
+  }
+  @media all and (max-width:1334px){
+    #category_for_men .container ul li{
+      width: 50%;
+    }
+    #category_for_men .container ul li a{
+      margin-right: 0;
+      margin-left: 30%;
+    }
+    #limelight .wrapper .container{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    #limelight .wrapper .container .box{
+      width: 50%;
+    
+    }
+  }
+  @media all and (max-width:1285px){
+    header .container .right ul li button{
+      margin-right: 0;
+      width: 150px;
+    }
+    #Categories_for_women .container ul li{
+      width: 400px;
+    }
+  }
+  @media all and (max-width:1290px){
+    #feed_back .wrapper .container{
+      flex-wrap: wrap;
+    }
+    #feed_back .wrapper .container .box{
+      width: 100%;
+      margin-bottom: 3%;
+    }
+  }
+  @media all and (max-width:1182px){
+    #middle .wrapper .gallery ul li {
+      margin-left: 0;
+    }
+  }
+  @media all and (max-width:1165px){
+    #spotlight {
+      background-size: 100%;
+      height: 90vh;
+    }
+    #main .wrapper .container{
+      flex-wrap: wrap;
+      background-size: 900px;
+      width: 60%;
+      margin-left: 20%;
+    }
+    #brand{
+      height: 170vh;
+    }
+    #brand .wrapper .container div.left{
+      background-repeat: no-repeat;
+    }
+    #brand .wrapper .container  div.right{
+      background-repeat: no-repeat;
+      margin-top: 0;
+    }
+    #brand .wrapper .container{
+      flex-wrap: wrap;
+    }
+    #top_brands .wrapper .container{
+      height: 500px;
+    }
+    #top_brands .wrapper .container .logo {
+     display: flex;
+    }
+    #top_brands .wrapper .container .logo span{
+      margin-left: 100px;
+    }
+  }
+  @media all and (max-width:1165px){
+    #spotlight {
+     width: 110%;
+      height: 80vh;
+    }
+    #brand{
+      margin-left: 8%;
+    }
+    #footer{
+      width: 110%;
+    }
+    #popularCategories {
+      width: 110%;
+    }
+  }
+  @media all and (max-width:1040px){
+    #spotlight {
+      width: 115%;
+     }
+     #top_brands .wrapper .container {
+      height: 80vh;
+     }
+     #footer{
+      width: 115%;
+    }
+    #popularCategories {
+      width: 115%;
+    }
+  }
+  @media all and (max-width:993px){
+    header .container .middle ul li{
+      margin-right: 10px;
+    }
+    #spotlight {
+      width: 120%;
+     }
+     #spotlight .wrapper .container .left{
+      margin-top: 300px;
+     }
+     #spotlight .wrapper .container .middle{
+      margin-top: 150px;
+     }
+     #spotlight .wrapper .container .right{
+      margin-top: 300px;
+     }
+     #spotlight .wrapper .container .right img{
+      margin-left: -300px;
+     }
+    #middle .wrapper .gallery ul li{
+      width: 80%;
+      margin: 0;
+      padding: 2%;
+    }
+    #middle .wrapper .gallery ul li:nth-child(2n){
+      margin-left: -3%;
+    }
+    #middle .wrapper .gallery ul li:nth-child(3n){
+      margin-left: -2%;
+    }
+  }
+  @media all and (max-width:980px){
+    header .container .left h1 a img{
+      margin-left: 38px;
+    }
+    header .container .middle ul li.menu{
+      display: block;
+      margin-left: 28%;
+    }
+    header .container .middle ul li{
+      display: none;
+    }
+    header .container .right{
+      margin-left: 50px;
+    }
+    header .container .right ul li button{
+      width: 200px;
+    }
+  }
+  @media all and (max-width:915px){
+    header .container .right{
+      margin-left: 200px;
+    }
+    #spotlight {
+      width: 125%;
+     }
+
+     #footer{
+      width: 125%;
+    }
+    #popularCategories {
+      width: 125%;
+    }
+    #top_brands .wrapper .container{
+      width: 100%;
+    }
+  }
+  @media all and (max-width:876px){
+    #main .wrapper .container{
+      width: 100%;
+    }
+    header .container .right{
+      margin-left:-5px;
+      margin-left: 20px;
+
+    }
+  
+    
+    #Categories_for_women .container ul li{
+      width: 300px;
+    }
+    #top_brands .wrapper .container{
+      width: 110%;
+    }
+  }
+  @media all and (max-width:694px){
+    header .container .right ul li {
+      margin-right: 40px;
+      margin-left: 40px;
+  }
+  #spotlight .wrapper .container .left img{
+    display: none;
+  }
+  #spotlight .wrapper .container .right img{
+    display: none;
+  }
+}
+
+  @media all and (max-width:660px){
+    #spotlight {
+      width: 130%;
+      height: 90vh;
+     }
+     #Categories_for_women .container ul li{
+      width: 200px;
+     }
+     #top_brands .wrapper .container{
+      width: 130%;
+     }
+     #feed_back .wrapper .container .box{
+      width: 200%;
+     }
+  }
+  @media all and (max-width:635px){
+    #spotlight {
+      width: 150%;
+      height: 100vh;
+     }
+     #limelight .wrapper .container{
+      width: 100%;
+     }
+     #limelight .wrapper .container .box{
+      width: 100%;
+      margin-left: 50%;
+     }
+  }
+  @media all and (max-width:546px){
+    header .container .right ul li button {
+        width: 150px;
+        margin-left: 10px;
+  }
+}
+
+  @media all and (max-width:551px){
+    #category_for_men .container ul li{
+      width: 100%;
+    }
+    #top_brands .wrapper .container{
+      width: 150%;
+    }
+    #footer{
+      width: 150%;
+    }
+    #popularCategories{
+      width: 150%;
+    }
+  }
+  @media all and (max-width:550px){
+    #spotlight {
+      width: 155%;
+      height: 110vh;
+     }
+     header .container .right span img { 
+      padding: 4px;
+    }
+     #main .wrapper .container{
+      width: 120%;
+     }
+     #brand .wrapper .container div.left{
+     height: 500px;
+     }
+  }
+  @media all and (max-width:505px){
+    #spotlight {
+      width: 160%;
+      height: 60vh;
+     }
+     #spotlight .wrapper .container .middle h2{
+      font-size: 50px;
+     }
+     #middle .wrapper .gallery ul li{
+      width: 100%;
+     }
+     #Categories_for_women .container ul li{
+      width: 100%;
+      margin-left: 50%;
+     }
+     #top_brands .wrapper .container{
+      width: 160%;
+     }
+     #footer{
+      width: 170%;
+     }
+     #popularCategories{
+      width: 170%;
+     }
+     
+  }
+  @media all and (max-width:472px){
+    header .container .right span img { 
+      padding: 4px;
+    }
+  }
+  @media all and (max-width:480px){
+    header .container .right ul li button {
+      height: 30px;
+
+}
+header .container .right ul li button img {
+  margin: 0;
+}
+  }
+  @media all and (max-width:474px){
+    header .container .right{
+      margin-left: 0
+    }
+    #spotlight{
+      width: 180%;
+    }
+    #main .wrapper .container{
+      width: 150%;
+    }
+    #middle .wrapper .gallery ul{
+      margin-left: 50%;
+    }
+    #brand .wrapper .container h4{
+      margin-top: 50px;
+      font-size: 20px;
+    }
+    #top_brands .wrapper .container{
+      width: 180%;
+    }
+    #feed_back .wrapper .container .box{
+      width: 100%;
+    }
+  }
+  @media all and (max-width:406px){
+    header .container .middle ul li:first-child{
+      margin-left: 2%;
+    }
+    header .container .right{
+      margin-left: 20px;
+    }
+    #spotlight{
+     height: 190%;
+  }
+  #spotlight .wrapper .container .left{
+    margin-top: 200px;
+  }
+  #spotlight .wrapper .container .middle h2{
+    font-size: 35px;
+    line-height: 1.3;
+  }
+  #spotlight .wrapper .container .right{
+    margin-top: 200px;
+  }
+  #brand{
+    height: 120vh;
+  }
+  #feed_back .wrapper .container{
+    width: 150%;
+  }
+ 
+}
+@media all and (max-width:406px){
+  header .container .left h1 a img {
+    margin-left: 10px;
+}
+}
+@media all and (max-width:378px){
+  header .container .right{
+    margin: 0;
+  }
+}
+@media all and (max-width:366px){
+  #main .wrapper .container{
+    width: 180%;
+    margin-left: 0;
+  }
+  #brand .wrapper .container h4{
+    margin-top: 30px;
+  }
+  #top_brands .wrapper .container{
+    height: 120vh;
+  }
+}
+@media all and (max-width:358px){
+  header .container{
+    margin-bottom: 30px;
+    
+  }
+  header .container .right ul li span {
+    flex-wrap: wrap;
+    width: 0;
+    margin-bottom: 10px;
+    
+   
+  }
+}
+@media all and (max-width:352px){
+  
+  header .container .right ul li{
+    margin-right: 20px;
+  }
+  #footer .wrapper .container div.right span.right ul{
+    flex-wrap: wrap;
+  }
+  #footer .wrapper .container div.right span.right ul li{
+    margin-bottom: 3%;
+  }
+}
+@media all and (max-width:325px){
+  #spotlight .wrapper .container .left img{
+    display: none;
+  }
+  #spotlight .wrapper .container .right img{
+    display: none;
+  }
+}
+@media all and (max-width:320px){
+  #brand .wrapper .container div.left{
+    background-size: 130%;
+  }
+}
